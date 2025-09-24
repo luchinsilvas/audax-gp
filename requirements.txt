@@ -7,3 +7,4 @@ soccerplots
 datetime
 scikit-learn
 mplsoccer
+plotly
