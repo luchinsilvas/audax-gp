@@ -254,7 +254,7 @@ cont_apk = st.container(key="containerapk")
 with cont_apk:
     cont_2 = st.container(key="container2",horizontal=True,horizontal_alignment="center",vertical_alignment="center")
     with cont_2:
-            st.image('img\Chile Primeradivision\Audax Italiano.png',width=65)
+            st.image('img/Chile Primeradivision/Audax Italiano.png',width=65)
         
             st.markdown("""
                             <style>
@@ -266,7 +266,7 @@ with cont_apk:
                             """, unsafe_allow_html=True)
             st.markdown('<p class="big-font">Advanced Performance Keys</p>', unsafe_allow_html=True)
                 
-            st.image('img\Chile Primeradivision\Liga de Primera.png',width=65)
+            st.image('img/Chile Primeradivision/Liga de Primera.png',width=65)
     cont_mt = st.container(horizontal=True , border=True, horizontal_alignment="center", gap="medium")
     with cont_mt:
         st.metric(label="Goal\nPerformance",value=round(adv_met[0][1],2))
@@ -279,6 +279,7 @@ st.pyplot(fig=fig_p)
 
 st.pyplot(fig=fig)
         
+
 
 
 
