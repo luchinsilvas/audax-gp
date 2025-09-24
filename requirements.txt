@@ -1,0 +1,11 @@
+streamlit
+pandas 
+numpy 
+matplotlib.pyplot
+import os
+PIL
+matplotlib.patches
+matplotlib.patheffects
+matplotlib.colors
+matplotlib.cm
+statsbombpy
