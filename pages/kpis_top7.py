@@ -826,8 +826,8 @@ def plot_team_kpi_boxes(df, team_name):
     ax.axis('off')
     
     # 8. Escudo central y Liga
-    badge_path = f"img\Chile Primeradivision\{team_name}.png"
-    liga_path = f"img\Chile Primeradivision\Liga de Primera.png"
+    badge_path = f"img/Chile Primeradivision/{team_name}.png"
+    liga_path = f"img/Chile Primeradivision/Liga de Primera.png"
 
     badge = Image.open(badge_path)
     add_image(badge, fig, left= 0.05, bottom=0.84, width=0.2, height=0.2)  # Tamaño y posición ajustada
@@ -843,7 +843,7 @@ def plot_team_kpi_boxes(df, team_name):
 # === DASHBOARD FINAL ===
 def update_dashboard(selected_kpi, selected_team):
     df_filtered = ranking_df.copy()
-    badge_dir = "img\Chile Primeradivision"
+    badge_dir = "img/Chile Primeradivision"
     buf_table = generate_custom_table_image(df_filtered, kpi_options, selected_team, badge_dir)
     buf_kpi = plot_team_kpi_boxes(df_filtered, selected_team)
 
@@ -867,5 +867,6 @@ def update_dashboard(selected_kpi, selected_team):
     return fig
 
 col_1 = update_dashboard('Goal Performance Team Index','Audax Italiano')
+
 
 st.pyplot(col_1)
