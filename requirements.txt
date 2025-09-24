@@ -6,3 +6,4 @@ statsbombpy
 soccerplots
 datetime
 scikit-learn
+mplsoccer
