@@ -2,8 +2,6 @@ import pandas as pd
 import matplotlib.pyplot as plt
 import matplotlib.image as mpimg
 from math import pi
-import ipywidgets as widgets
-from IPython.display import display
 import os
 import matplotlib.gridspec as gridspec
 import matplotlib.patheffects as path_effects
@@ -293,4 +291,5 @@ def plot_radar_and_kpis(equipo, jornada):
 fig_tl = plot_radar_and_kpis(team_selected_mr,jornada_selected_mr)
 
 st.pyplot(fig=fig_tl)
+
 
