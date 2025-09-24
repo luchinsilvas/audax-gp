@@ -34,4 +34,5 @@ pages = [
 pg = st.navigation(pages=pages , position='sidebar', expanded=True)
 pg.run()
 
-st.logo("img\Chile Primeradivision\Insignia_Audax_Italiano.png")
+
+st.logo("img/Chile Primeradivision/Insignia_Audax_Italiano.png")
