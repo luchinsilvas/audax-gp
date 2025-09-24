@@ -1,0 +1,40 @@
+[theme]
+
+# Background color of the app.
+backgroundColor = "#009d6e"
+
+# The color of the border around elements.
+borderColor = "#0E3F5C"
+
+secondaryBackgroundColor = "#0E3F5C"
+
+# Whether to show a vertical separator between the sidebar and the main
+# content area.
+showSidebarBorder = true
+
+baseRadius = "medium"
+
+# The background color of the dataframe's header.
+dataframeHeaderBackgroundColor = "#032538ff"
+
+dataframeBorderColor = "#123448ff"
+
+# Color used for almost all text.
+textColor = "#ffffff"
+
+# Primary accent color.
+primaryColor = "#0E3F5C"
+
+[theme.sidebar]
+
+# Background color of the app.
+# Usando azul audax:
+backgroundColor = "#0E3F5C"
+
+borderColor = "#f1d09f"
+
+# Color used for almost all text.
+textColor = "#ffffff"
+
+[client]
+showSidebarNavigation = true
