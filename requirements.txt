@@ -1,11 +1,7 @@
 streamlit
 pandas 
 numpy 
-matplotlib.pyplot
+matplotlib
 os
 PIL
-matplotlib.patches
-matplotlib.patheffects
-matplotlib.colors
-matplotlib.cm
 statsbombpy
