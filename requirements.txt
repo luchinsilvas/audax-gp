@@ -2,7 +2,7 @@ streamlit
 pandas 
 numpy 
 matplotlib.pyplot
-import os
+os
 PIL
 matplotlib.patches
 matplotlib.patheffects
