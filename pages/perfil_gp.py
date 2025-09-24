@@ -24,7 +24,7 @@ st.set_page_config(
 
 # INCLUIR SELECT BOX PARA ELEGIR EL EQUIPO A RESALTAR
 
-logos_dir = 'img\Chile Primeradivision'
+logos_dir = 'img/Chile Primeradivision'
 selected_team = 'Audax Italiano'  # <- CAMBIA AQUÍ EL EQUIPO A RESALTAR
 df = st.session_state['gtv']
 df = df[~df['team_name'].str.contains('TopValues', na=False)]
@@ -189,8 +189,8 @@ def plot_team(team_name):
              size=6, color="#F2F2F2", ha="right")
     
     # 8. Escudo central y Liga
-    badge_path = f"img\Chile Primeradivision\{team_name}.png"
-    ligueName_path = f"img\Chile Primeradivision\Liga de Primera.png"
+    badge_path = f"img/Chile Primeradivision/{team_name}.png"
+    ligueName_path = f"img/Chile Primeradivision/Liga de Primera.png"
 
     badge = Image.open(badge_path)
     add_image(badge, fig_p, left=0.451, bottom=0.438, width=0.12, height=0.12)
@@ -279,5 +279,6 @@ st.pyplot(fig=fig_p)
 
 st.pyplot(fig=fig)
         
+
 
 
